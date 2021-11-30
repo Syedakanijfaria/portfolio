@@ -1,6 +1,8 @@
 import React from "react";
 import "./Home.css";
 import Me from '../../image/coding.png';
+
+
 const Home = () => {
     return (
         <div className="i">
