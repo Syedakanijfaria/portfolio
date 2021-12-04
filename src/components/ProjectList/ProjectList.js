@@ -10,7 +10,7 @@ const ProjectList = () => {
             .then(data => setProject(data));
     }, [])
     return (
-        <div className="pl">
+        <div className="pl" id="project">
             <div className="pl-texts">
                 <h1 className="pl-title">Create & inspire. It's Lama</h1>
                 <p className="pl-desc">

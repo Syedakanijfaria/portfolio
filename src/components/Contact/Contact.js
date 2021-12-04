@@ -27,7 +27,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="c">
+        <div className="c" id="contact">
             <div className="c-bg"></div>
             <div className="c-wrapper">
                 <div className="c-left">
@@ -57,7 +57,7 @@ const Contact = () => {
                         <input type="text" placeholder="Subject" name="subject" />
                         <input type="text" placeholder="Email" name="email" />
                         <textarea rows="5" placeholder="Message" name="message" />
-                        <button>Submit</button>
+                        <button className="button">Submit</button>
                         {done && "Thank you..."}
                     </form>
                 </div>
